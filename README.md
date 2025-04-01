@@ -26,3 +26,15 @@
 5. git branch -M main, rnombra el repositorio a main
 6. git remote add origin (link), Conecto el repositorio local con el repositorio remoto
 7. ** git push -u origin main**, Envio los cambios al repositoio remoto
+
+# EJERCICIO 3
+
+## ¿Por que el apartado 2 y 3 devuelven los mismo?
+	Esto sucede ya que el puntero almacena la direccion de memoria de la variable 'numero',
+	que es justamente lo que se muestra en el apartado 3
+
+## ¿Que obtienees en el apartado 4?
+	Lo que obtengo en el apartado 4 es la direccion de memoria donde se encuentra la variable puntero.
+	Esta no es igual a los apartados anteriores ya que la direccion de memoria que esta almacenada
+	en el puntero es la de otra variable.
+
